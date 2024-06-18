@@ -1,0 +1,32 @@
+
+  
+.animation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100vw;
+  }
+  
+  .iphone {
+    position: absolute;
+    height: 500px;
+  }
+  
+  .widgets {
+    position: absolute;
+    z-index: -1;
+    scale: 0;
+  }
+  
+  #socials {
+    background: linear-gradient(#ff348b, #e30217);
+    border-radius: 30px;
+    aspect-ratio: 1;
+    height: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }

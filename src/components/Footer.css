@@ -1,0 +1,23 @@
+.appleLinks{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appleLinks > a {
+    cursor: pointer;
+}
+.footerBuy{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-link{
+    width: 100px;
+}
+.text-xs{
+    cursor: pointer;
+}
